@@ -1,0 +1,53 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 500px;
+    height: 300px;
+    background:url("b4.jpg");
+    background-position: -230px -6px;
+    box-shadow: 0 0 0 3000px #ccc;
+    border-radius:8px;
+    font-weight: 600;
+    padding: 8px 10px;
+}
+h3{
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+    font-weight: 600;
+    font-family: "微软雅黑";
+    color: rgb(65, 60, 60);
+}
+label{
+    width: 100%;
+    font-size: 16px;
+    color: rgb(65, 60, 60);
+}
+input{
+    width: 98%;
+    height: 30px;
+    border: 0;
+
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 8px;
+}
+button{
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    outline: none;
+    border: 0;
+    box-shadow: 0 0 1px 1px #333;
+    cursor: pointer;
+    background: linear-gradient(45deg,#6633ff,blue);
+    margin-top: 8px;
+    border-radius: 5px;
+    color: #fff;
+}
