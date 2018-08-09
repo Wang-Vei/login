@@ -5,7 +5,7 @@ window.onload=function () {
     console.log(login1,psw,user);
 
     login1.onclick=function () {
-        if(user.value=="zs" && psw.value=="111111"){
+        if(user.value=="成功" && psw.value=="nuli"){
             alert("success");
             user.value="";
             psw.value="";
