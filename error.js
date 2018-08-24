@@ -1,7 +1,9 @@
 window.onload=function () {
-    let  Time=document.getElementsByTagName("span")[0];
+    let Time=document.getElementsByTagName("span")[0];
     let num=Time.innerText;
-    let t=window.setInterval(fn,1000);
+    let a=document.querySelector("a")
+
+    let t=setInterval(fn,1000);
     function fn() {
         num--;
         Time.innerText=num;
@@ -10,4 +12,13 @@ window.onload=function () {
             close();
         }
     }
+
+    a.onclick=function(){
+        close()
+    }
+
+
+
+
+
 }

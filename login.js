@@ -5,8 +5,8 @@ window.onload=function () {
     console.log(login1,psw,user);
 
     login1.onclick=function () {
-        if(user.value=="成功" && psw.value=="nuli"){
-            alert("success");
+        if(user.value=="李双亚" && psw.value=="19970508"){
+            alert("遇见你很开心，感谢遇见，感谢你！");
             user.value="";
             psw.value="";
         }
